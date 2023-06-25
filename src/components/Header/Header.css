@@ -1,0 +1,61 @@
+.nav__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 1rem;
+  width: 10vh;
+}
+.Logo {
+  text-align: center;
+}
+
+.Logo h5 {
+  margin-top: -18px;
+  color: rgb(31, 3, 22);
+}
+
+.menu a {
+  font-weight: 600;
+  font-size: 2rem;
+  text-decoration: none;
+  color: rgb(31, 3, 22);
+}
+
+.menu a:hover {
+  color: rgb(205, 53, 89);
+}
+
+.cart__icon i,
+.user i,
+.mobile__menu i {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.cart__icon {
+  position: relative;
+}
+
+.cart__badge {
+  position: absolute;
+  top: -20px;
+  right: -10px;
+  background: rgb(198, 12, 12);
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile__menu {
+  font-weight: 600;
+  display: none;
+}

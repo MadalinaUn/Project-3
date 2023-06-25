@@ -1,11 +1,8 @@
+import Layout from "./components/Layout/Layout"
 import "./App.css"
 
 function App() {
-  return (
-    <>
-      <hi>Hello</hi>
-    </>
-  )
+  return <Layout />
 }
 
 export default App
