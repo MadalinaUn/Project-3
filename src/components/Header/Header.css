@@ -4,15 +4,15 @@
   justify-content: space-between;
 }
 
-.logo {
+.logo img {
   padding: 1rem;
   width: 10vh;
 }
-.Logo {
+.logo {
   text-align: center;
 }
 
-.Logo h5 {
+.logo h5 {
   margin-top: -18px;
   color: rgb(31, 3, 22);
 }

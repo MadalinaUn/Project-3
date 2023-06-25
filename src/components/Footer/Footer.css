@@ -1,0 +1,17 @@
+.Livrare {
+  margin-top: -1vh;
+  margin-left: -2vh;
+  border: none;
+  background: #00000000;
+}
+
+.footer {
+  padding: 50px 0px;
+  display: flex;
+  align-items: center;
+  background: #0000008a;
+}
+
+.footer__logo img {
+  width: 15vh;
+}

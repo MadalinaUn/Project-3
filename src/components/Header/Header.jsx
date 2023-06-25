@@ -30,8 +30,8 @@ const Header = () => {
     <header className="header">
       <Container>
         <div className="nav__wrapper">
-          <div className="Logo">
-            <img class="logo" src={logo} alt="Restaurant logo" />
+          <div className="logo">
+            <img src={logo} alt="Restaurant logo" />
             <h5>Good Food</h5>
           </div>
           <div className="navigation">
