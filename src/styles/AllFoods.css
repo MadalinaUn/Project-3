@@ -1,0 +1,28 @@
+.food__category {
+  display: flex;
+  margin: 30px;
+}
+
+.food__category img {
+  width: 70%;
+}
+.food__category h4 {
+  font-weight: 700;
+}
+
+.food__category button {
+  transition: 0.7s;
+  border: none;
+  outline: none;
+  background: #e65252;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.food__category button:hover {
+  transform: translateY(-20px);
+}
+
+.allFood__page {
+  margin-bottom: 40px;
+}

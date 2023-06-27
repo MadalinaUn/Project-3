@@ -223,3 +223,5 @@ const products = [
     desc: "Descriere desert6",
   },
 ]
+
+export default products
