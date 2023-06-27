@@ -2,7 +2,7 @@ import React from "react"
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap"
 import logo from "../../assets/iamages/logo.png"
 
-import "../Footer/Footer.css"
+import "../../styles/Footer.css"
 
 const Footer = () => {
   return (
@@ -18,11 +18,11 @@ const Footer = () => {
           <Col>
             <h4>Livrare</h4>
             <ListGroup>
-              <ListGroupItem className="Livrare">
+              <ListGroupItem className="Delivery">
                 <span>Luni - Sambata</span>
                 <p>10:00 - 22:00</p>
               </ListGroupItem>
-              <ListGroupItem className="Livrare">
+              <ListGroupItem className="Delivery">
                 <span>Duminica</span>
                 <p>10:00 - 20:00</p>
               </ListGroupItem>
@@ -32,13 +32,13 @@ const Footer = () => {
           <Col>
             <h4>Contact</h4>
             <ListGroup>
-              <ListGroupItem className="Livrare">
+              <ListGroupItem className="Delivery">
                 <span>Phone: 0712345678</span>
               </ListGroupItem>
-              <ListGroupItem className="Livrare">
+              <ListGroupItem className="Delivery">
                 <span>Email: goodfood@gmail.com</span>
               </ListGroupItem>
-              <ListGroupItem className="Livrare">
+              <ListGroupItem className="Delivery">
                 <span>Locatie: Iasi, Romania</span>
               </ListGroupItem>
             </ListGroup>

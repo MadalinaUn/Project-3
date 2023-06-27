@@ -1,0 +1,16 @@
+.Delivery {
+  margin-top: -1vh;
+  margin-left: -2vh;
+  border: none;
+}
+
+.footer {
+  padding: 50px 0px;
+  display: flex;
+  align-items: center;
+  background: #201d1d8a;
+}
+
+.footer__logo img {
+  width: 15vh;
+}

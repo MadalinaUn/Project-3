@@ -4,7 +4,7 @@ import { Container } from "reactstrap"
 import logo from "../../assets/iamages/logo.png"
 import { NavLink, Link } from "react-router-dom"
 
-import "./Header.css"
+import "../../styles/Header.css"
 
 const nav__links = [
   {
@@ -32,7 +32,7 @@ const Header = () => {
         <div className="nav__wrapper">
           <div className="logo">
             <img src={logo} alt="Restaurant logo" />
-            <h5>Good Food</h5>
+            <h3>Good Food</h3>
           </div>
           <div className="navigation">
             <div className="menu">

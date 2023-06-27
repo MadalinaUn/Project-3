@@ -10,9 +10,11 @@ import Contact from "../pages/Contact"
 import Login from "../pages/Login"
 import Register from "../pages/Register"
 
+import "../styles/routers.css"
+
 const Routers = () => {
   return (
-    <Routes>
+    <Routes className="Routes">
       <Route path="/" element={<Navigate to="/home" />} />
       <Route path="/home" element={<Home />} />
       <Route path="/foods" element={<AllFoods />} />

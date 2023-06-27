@@ -1,0 +1,16 @@
+.category__img img {
+  width: 70%;
+}
+
+.category__item {
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.category__item:hover {
+  transform: translateY(-20px);
+}
+
+.category__item h4 {
+  font-weight: 700;
+}
