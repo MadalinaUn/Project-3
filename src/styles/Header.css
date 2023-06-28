@@ -9,10 +9,6 @@
   justify-content: space-between;
 }
 
-.menu {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
 .logo img {
   padding: 1rem;
   width: 15vh;
@@ -30,6 +26,7 @@
 }
 
 .menu a {
+  padding: 20px;
   font-weight: 600;
   font-size: 2rem;
   text-decoration: none;
@@ -65,6 +62,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.user {
+  padding-left: 20px;
 }
 
 .mobile__menu {
