@@ -9,6 +9,7 @@ import Checkout from "../pages/Checkout"
 import Contact from "../pages/Contact"
 import Login from "../pages/Login"
 import Register from "../pages/Register"
+import Search from "../pages/Search"
 
 import "../styles/routers.css"
 
@@ -18,12 +19,13 @@ const Routers = () => {
       <Route path="/" element={<Navigate to="/home" />} />
       <Route path="/home" element={<Home />} />
       <Route path="/foods" element={<AllFoods />} />
-      <Route path="/foods/:title" element={<FoodDetails />} />
+      <Route path="/foods/:id" element={<FoodDetails />} />
       <Route path="/cart" element={<Cart />} />
       <Route path="/checkout" element={<Checkout />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
+      <Route path="/search" element={<Search />} />
     </Routes>
   )
 }

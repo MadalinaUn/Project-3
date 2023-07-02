@@ -1,0 +1,29 @@
+.product__main-img {
+  padding-top: 30px;
+}
+
+.product__title {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-decoration-line: underline;
+}
+
+.product__price {
+  color: black;
+}
+
+.product__category {
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.tabs h4 {
+  padding-top: 40px;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-weight: 900;
+}
+
+.tab__content {
+  padding: 0% 20%;
+}

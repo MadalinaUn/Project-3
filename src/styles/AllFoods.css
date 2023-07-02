@@ -1,6 +1,6 @@
 .food__category {
   display: flex;
-  margin: 30px;
+  margin: 20px;
 }
 
 .food__category img {
@@ -25,4 +25,8 @@
 
 .allFood__page {
   margin-bottom: 40px;
+}
+
+.all__food {
+  padding-bottom: 10px;
 }

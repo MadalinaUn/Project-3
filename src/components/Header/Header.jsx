@@ -17,10 +17,10 @@ const nav__links = [
     display: "Foods",
     path: "/foods",
   },
-  {
-    display: "Cart",
-    path: "/cart",
-  },
+  // {
+  //   display: "Cart",
+  //   path: "/cart",
+  // },
   {
     display: "Contact",
     path: "/contact",
@@ -52,16 +52,22 @@ const Header = () => {
             </div>
           </div>
           <div className="nav__right">
+            <span className="search__btn">
+              <Link to="/search">
+                <i class="ri-search-line"></i>
+              </Link>
+            </span>
+
             <span className="cart__icon" onClick={toggleCart}>
               <i class="ri-shopping-basket-2-fill"></i>
               <span className="cart__badge">{totalQuantity}</span>
             </span>
 
-            <span className="user">
+            {/* <span className="user">
               <Link to="/login">
                 <i class="ri-user-fill"></i>
               </Link>
-            </span>
+            </span> */}
 
             <span className="mobile__menu">
               <i class="ri-menu-5-fill"></i>

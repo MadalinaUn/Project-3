@@ -1,0 +1,24 @@
+.search__widget {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 30vh;
+  padding: 5px;
+  border: 3px solid #e65252;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.search__widget input {
+  border: none;
+  font-size: 1.3rem;
+}
+
+.search__widget input:focus {
+  outline: none;
+}
+
+.search__widget i {
+  font-size: 1.3rem;
+}

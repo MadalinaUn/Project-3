@@ -37,11 +37,18 @@
   color: rgb(172, 9, 131);
 }
 
+.search__btn i,
 .cart__icon i,
 .user i,
 .mobile__menu i {
   font-size: 2rem;
   cursor: pointer;
+  color: black;
+}
+
+.search__btn a {
+  text-decoration: none;
+  padding-right: 20px;
 }
 
 .cart__icon {
