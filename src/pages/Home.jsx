@@ -12,7 +12,7 @@ const Home = () => {
       <section>
         <Container>
           <Row>
-            <img src={chefImg} alt="Bucatarii nostri" />
+            <img src={chefImg} alt="Bucatarii nostri" className="w-80%" />
             <h2>
               Expertii nosti asteapta sa va incante cu cele mai delicioase
               preparate!

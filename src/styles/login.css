@@ -1,0 +1,28 @@
+.form h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 900;
+}
+
+.form input {
+  margin-top: -10px;
+  width: 95%;
+  margin-left: 10px;
+  font-size: 1.4rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #e65252;
+}
+.form label {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.form .addToCart__btn {
+  text-align: center;
+}
+
+.link {
+  margin-bottom: 30px;
+}

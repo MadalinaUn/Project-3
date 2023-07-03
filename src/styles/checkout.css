@@ -1,0 +1,45 @@
+.checkout__form {
+  text-align: center;
+}
+
+.checkout__form input {
+  margin-top: 10px;
+  width: 95%;
+  margin-left: 10px;
+  font-size: 1.7rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #e65252;
+}
+
+.checkout__form input:focus {
+  outline: none;
+}
+
+.addToCart__btn {
+  margin: 20px;
+  font-size: 1.4rem;
+}
+
+.checkout__bill {
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+  background: #f1cbcb;
+  border-radius: 10px;
+}
+.checkout__bill h4 {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.checkout__bill h3 {
+  padding-left: 20px;
+  margin-top: 20px;
+  padding-top: 5px;
+  border-top: 1px solid black;
+}

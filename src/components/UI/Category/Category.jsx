@@ -33,7 +33,7 @@ const Category = () => {
     <Container>
       <Row>
         {categoryData.map((item) => (
-          <Col lg="3" md="4">
+          <Col lg="3" md="6">
             <div className="category__item">
               <div className="category__img">
                 <img src={item.imgUrl} alt="category__item" />

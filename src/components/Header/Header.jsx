@@ -17,14 +17,6 @@ const nav__links = [
     display: "Foods",
     path: "/foods",
   },
-  // {
-  //   display: "Cart",
-  //   path: "/cart",
-  // },
-  {
-    display: "Contact",
-    path: "/contact",
-  },
 ]
 
 const Header = () => {
@@ -63,14 +55,10 @@ const Header = () => {
               <span className="cart__badge">{totalQuantity}</span>
             </span>
 
-            {/* <span className="user">
+            <span className="user">
               <Link to="/login">
                 <i class="ri-user-fill"></i>
               </Link>
-            </span> */}
-
-            <span className="mobile__menu">
-              <i class="ri-menu-5-fill"></i>
             </span>
           </div>
         </div>
